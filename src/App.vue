@@ -3,14 +3,14 @@
 </script>
 
 <template>
-  <div :class="['container', mood]">
+  <div :class="['container']">
     <h1>Mood Switcher</h1>
 
     <p>{{ moodMessage }}</p>
 
-    <button @click="mood = 'happy'">Happy</button>
-    <button @click="mood = 'sad'">Sad</button>
-    <button @click="mood = 'angry'">Angry</button>
+    <button>Happy</button>
+    <button>Sad</button>
+    <button>Angry</button>
   </div>
 </template>
 
